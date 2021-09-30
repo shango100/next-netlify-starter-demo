@@ -15,6 +15,21 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <form
+         action="https://formspree.io/f/mwkazvbr"
+         method="POST"
+         >
+          <label>
+           Your email:
+         <input type="email" name="_replyto">
+         </label>
+         <label>
+         Your message:
+         <textarea name="message"></textarea>
+          </label>
+         <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+        </form>
       </main>
 
       <Footer />
